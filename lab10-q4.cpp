@@ -86,7 +86,7 @@ int main ()
 		cout<<"Enter the x and y cordinates of the right upper point of the rectange respectivly"<<endl;
 		cin >> c;//taking p2 cordinate
 		cin >> d;
-		p2.set_x(c);//setting the p1 value
+		p1.set_x(c);//setting the p1 value
 		p1.set_y(d);
 		rectangle rect(p1,p2);
 		rect.display();
